@@ -1,5 +1,5 @@
 
-                ** AccessManagement**
+# AccessManagement
 
 AccessManagement is an ASP.NET Core 8 application designed for handling authentication and authorization using JWT (JSON Web Token) authentication. This application follows best practices for securing .NET 8 Clean Architecture.
 
@@ -15,17 +15,17 @@ AccessManagement is an ASP.NET Core 8 application designed for handling authenti
 
 1. Clone the repository:
    
-   git clone https://github.com/sossyh/AccessManagement.git
+       git clone https://github.com/sossyh/AccessManagement.git
   
 
 2. Navigate to the project directory:
    
-   cd AccessManagement
+       cd AccessManagement
    
 
 3. Install dependencies:
    
-   dotnet restore
+       dotnet restore
    
 
 4. Configure database connection:
@@ -33,12 +33,12 @@ AccessManagement is an ASP.NET Core 8 application designed for handling authenti
 
 5. Run migrations:
    
-   dotnet ef database update
+       dotnet ef database update
    
 
 6. Run the application:
    
-   dotnet run
+       dotnet run
    
 
 ## Usage
